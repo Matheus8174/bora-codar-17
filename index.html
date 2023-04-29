@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calendar">
+    <header>
+      <div class="nav-button left">
+        <img src="./assets/arrow.svg" alt="">
+      </div>
+      <img src="./assets/2023.svg" alt="year">
+      <div class="nav-button right">
+        <img src="./assets/arrow.svg" alt="">
+      </div>
+    </header>
+    <ul class="month items">
+      <li>
+        <div>Jan</div>
+        <div>Fev</div>
+        <div>Mar</div>
+      </li>
+
+      <li>
+        <div class="selected">Abr</div>
+        <div>Mai</div>
+        <div>Jun</div>
+      </li>
+
+      <li>
+        <div>Jul</div>
+        <div>Ago</div>
+        <div>Set</div>
+      </li>
+
+      <li>
+        <div>Out</div>
+        <div>Nov</div>
+        <div>Dez</div>
+      </li>
+    </table>
+  </div>
+
+  <div class="calendar date-picker">
+    <header>
+      <div class="nav-button left">
+        <img src="./assets/arrow.svg" alt="">
+      </div>
+
+      <div class="inner">
+        <p>Abril 2023</p>
+        <img src="./assets/arrow-drop.svg" alt="" class="arrow-drop">
+      </div>
+
+      <div class="nav-button right">
+        <img src="./assets/arrow.svg" alt="">
+      </div>
+    </header>
+
+    <div class="days-name">
+      <header>
+        <ul>
+          <li>Dom</li>
+          <li>Seg</li>
+          <li>Ter</li>
+          <li>Qua</li>
+          <li>Qui</li>
+          <li>Sex</li>
+          <li>Sáb</li>
+        </ul>
+      </header>
+      <main class="items">
+        <ul>
+          <li class="disable">26</li>
+          <li class="disable">27</li>
+          <li class="disable">28</li>
+          <li class="disable">29</li>
+          <li class="disable">30</li>
+          <li class="disable">31</li>
+          <li>1</li>
+        </ul>
+        <ul>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+        </ul>
+        <ul>
+          <li>9</li>
+          <li>10</li>
+          <li>11</li>
+          <li>12</li>
+          <li>13</li>
+          <li>14</li>
+          <li>15</li>
+        </ul>
+        <ul>
+          <li>16</li>
+          <li>17</li>
+          <li>18</li>
+          <li>19</li>
+          <li>20</li>
+          <li>21</li>
+          <li>22</li>
+        </ul>
+        <ul>
+          <li>23</li>
+          <li>24</li>
+          <li>25</li>
+          <li class="selected-start">26</li>
+          <li class="selected-middle">27</li>
+          <li class="selected-middle">28</li>
+          <li class="selected-middle">29</li>
+        </ul>
+        <ul>
+          <li class="selected-middle">30</li>
+          <li class="selected-middle">1</li>
+          <li class="selected-middle">2</li>
+          <li class="selected-end">3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+        </ul>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
